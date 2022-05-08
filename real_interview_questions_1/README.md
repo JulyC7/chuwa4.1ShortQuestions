@@ -101,4 +101,30 @@ after change 0
 Example: ajnfjn100jnvjnf400jnjnjn
 
 
+```java 
+public class Main {
+    public static void main(String[] args) {
+        String input="ajnfjn100jnvjnf400jnjnjn";
 
+        System.out.println(input);
+        
+        int max_num=0;
+        int num=0;
+        for (int i=0;i<input.length();i++){
+            
+            //System.out.println(i+","+input.charAt(i));
+            if (Character.isDigit(input.charAt(i))){
+                num=num*10+(input.charAt(i)-'0');
+            }
+            
+            if (Character.isAlphabetic(input.charAt(i))){
+                max_num=Math.max(num,max_num);
+                num=0;
+            }
+            
+        }
+        return max_num;
+        //System.out.println(max_num);
+    }
+}
+```
