@@ -93,5 +93,12 @@ System.out.println("after change "+op.data);
 
 }
 ```
+
+before change 0 
+after change 0
+
 ## 5. Given the string, find the maximum number in the this string and return it
 Example: ajnfjn100jnvjnf400jnjnjn
+
+
+
