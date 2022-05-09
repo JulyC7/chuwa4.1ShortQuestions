@@ -14,10 +14,12 @@ interface default and static method: https://www.baeldung.com/java-8-new-feature
 # 2. Rest design, url, methods. 
 
 啥意思？
+https://restfulapi.net/
 
 # 3. right view of tree (其实就是让你设计一套API，考你命名规范的。可以尝试设计一个vendor machine)
 
 咋做？
+https://www.geeksforgeeks.org/print-right-view-binary-tree-2/
 
 
 ## Interview Questions:
